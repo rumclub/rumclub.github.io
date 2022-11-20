@@ -1,0 +1,1030 @@
+/*  
+Theme Name: RumClub Theme
+Theme URI: http://www.rumclub.org/
+Description: 3 columns theme
+Version: 1.0
+Author: Riccardo Bonini
+Author URI: http://www.riccardobonini.com/
+*/		
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+ul
+{
+list-style: none;
+}
+
+body 
+{
+font-size: 12px;
+margin: 0px;
+margin-left:10px;
+text-align: left;
+/*background: #ADBAC3;*/
+background: #FFF;
+color: #000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+line-height: 160%;
+}
+
+
+
+
+                         /***************************************************
+                         *********************** Blogtitle **************
+                         *****************************************************/
+
+#blogtitle
+{
+width: 100%;
+height:90px;
+display: block;
+color: #DFDAC3;
+text-align: left;
+margin: 0px auto 0 auto;
+padding: 0px;
+background: #ffffff;
+padding-bottom:5px;
+}
+
+
+#blogtitle a:link {
+color: #DFDFDF;
+text-decoration: none;
+border: none;
+padding: 6px 15px;
+margin-left: 0;
+background:none;
+}
+
+#blogtitle a:visited {
+color: #DFDFDF;
+text-decoration: none;
+border: none;
+font-weight: bold;
+padding: 6px 15px;
+margin-left: 0;
+background:none;
+}
+
+#blogtitle a:hover {
+color: #fff;
+text-decoration: none;
+padding: 6px 15px;
+margin-left: 0;
+background:none;
+}
+
+                         /***************************************************
+                         *********************** Container **************
+                         *****************************************************/
+#container
+{
+padding:0;
+margin-top: 0;
+width: 990px;
+overflow: hidden;
+background: #FFF;
+text-align:left;
+}
+
+
+
+
+                         /***************************************************
+                         *********************** Left Sidebar Container *******
+                         *****************************************************/
+#leftnav
+{
+float: right;
+width: 185px;
+margin: 0;
+padding: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 20px;
+text-align: left;
+background:none;
+
+}
+
+
+                         /***************************************************
+                         *********************** Right Sidebar Container *******
+                         *****************************************************/
+
+#rightnav
+{
+float: right;
+width: 180px;
+margin: 0;
+padding: 4px;
+margin-top: 0;
+margin-bottom: 20px;
+margin-right: 5px;
+text-align: left;
+background:none;
+
+}
+
+                         /***************************************************
+                         *********************** Content **************
+                         *****************************************************/
+#content
+{
+margin: 0 383px 0px 0px;
+padding: 0px;
+margin-top:0px;
+margin-left:0px;
+text-align: left;
+background: #fff;
+}
+
+
+#content ul
+{
+padding-left: 15px;
+}
+
+#content ul li{
+padding-left: 15px;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/content-star.gif) no-repeat;
+}
+
+#content ul ul li{
+padding-left: 15px;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/content-child.gif) no-repeat;
+}
+
+
+#content ol{
+list-style-position: inside;
+padding-left: 15px;
+padding-top: 2px;
+margin-bottom: 10px;
+}
+
+#content p
+{
+padding-left: 10px;
+}
+                         /***************************************************
+                         *********************** Footer **************
+                         *****************************************************/
+
+#footwrap
+{
+clear:both;
+/*float:left;*/
+width: 99%;
+background: #931111;
+color: #FEAA36;
+padding: 0px;
+font-weight: normal;
+border: 1px solid #FEAA36;
+}
+
+#footwrap p
+{
+display: block;
+margin-top: 8px;
+margin-bottom: 2px;
+text-align:center;
+}
+
+#footwrap a:link {
+color: #8F8F8F;
+text-decoration: none;
+border: none;
+font-weight: bold;
+}
+#footwrap a:hover {
+color: #8F8F8F;
+text-decoration: underline;
+border: none;
+}
+
+#footwrap a:visited:hover {
+color: #8F8F8F;
+text-decoration: underline;
+border: none;
+}
+
+#footwrap a:visited {
+color: #8F8F8F;
+text-decoration: none;
+border: none;
+font-weight: bold;
+}
+
+#footwrap img {
+padding: 0px 5px 0px 5px;
+}
+
+
+                         /***************************************************
+                         *********************** Left Sidebar **************
+                         *****************************************************/
+#sidebarleft
+{
+margin-bottom: 10px;
+background: #FFF;
+padding:0px;
+border:0px solid #000;
+width:180px;
+}
+
+#sidebarleft li
+{
+padding-bottom: 8px;
+background-color:#FFF;
+}
+
+.menu {
+background: #FFF url(../images/menu.jpg) no-repeat;
+}
+
+.categorie {
+background: #FFF url(../images/categorie.jpg) no-repeat;
+}
+
+.archivio {
+background: #FFF url(../images/archivio.jpg) no-repeat;
+}
+
+.iscriviti {
+background: #FFF url(../images/iscriviti.jpg) no-repeat;
+}
+
+#sidebarleft ul
+{
+border:0px solid #000;
+margin-bottom:15px;
+background-color:#FEAA36;
+}
+
+#sidebarleft ul li
+{
+display: block;
+padding-left: 10px;
+margin-left: 0px;
+padding-top:0px;
+margin-top:0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+background-color:#FEAA36;
+}
+
+#sidebarleft ul li ul li{
+padding-left: 10px;
+margin-left: 5px;
+padding-top:0px;
+margin-top:0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/child.gif) no-repeat;
+}
+
+#sidebarleft ul li li{
+padding-left: 10px;
+margin-left: 5px;
+padding-top:0px;
+margin-top:0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/child.gif) no-repeat;
+
+}
+
+#sidebarleft a:link {
+color: #000;
+text-decoration: none;
+border: none;
+font-weight: bold;
+font-size:10px;
+}
+
+#sidebarleft a:hover {
+color: #FFF;
+text-decoration: none;
+border: none;
+
+}
+
+#sidebarleft a:visited:hover {
+color: #FFF;
+text-decoration: none;
+border: none;
+font-size:10px;
+}
+
+#sidebarleft a:visited {
+color: #000;
+text-decoration: none;
+border: none;
+font-weight: bold;
+font-size:10px;
+}
+
+#sidebarleft h2 {
+color: #FFF;
+padding: 40px 8px 2px 8px;
+margin-top:8px;
+}
+
+.partners {
+background: #FFF url(../images/partners.jpg) no-repeat;
+}
+
+.academia {
+background: #FFF url(../images/academia.jpg) no-repeat;
+}
+
+.degustazioni {
+background: #FFF url(../images/degustazioni.jpg) no-repeat;
+}
+
+.extras {
+background: #FFF url(../images/extras.jpg) no-repeat;
+}
+
+.faq {
+background: #FFF url(../images/faq.jpg) no-repeat;
+}
+
+
+                         /***************************************************
+                         *********************** Right Sidebar **************
+                         *****************************************************/
+
+
+#sidebarright
+{
+margin-top:4px;
+margin-bottom: 0px;
+background: #FFF;
+padding:0px;
+width:180px;
+border:0px solid #000;
+}
+
+#sidebarright li
+{
+padding-bottom: 8px;
+background-color:#FEAA36;
+}
+
+#sidebarright ul
+{
+border:0px solid #000;
+margin-bottom:15px;
+background-color:#FEAA36;
+}
+
+.meta {
+background: #FFF url(../images/meta.jpg) no-repeat;
+}
+
+.calendario {
+background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/calendario.jpg) no-repeat;
+}
+
+.cerca {
+background: #FFF url(../images/cerca.jpg) no-repeat;
+}
+
+.rum {
+background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/rum.jpg) no-repeat;
+}
+
+#sidebarright ul li
+{
+display: block;
+padding-left: 10px;
+margin-left: 5px;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/star.gif) no-repeat;
+padding-bottom: 2px;
+background-color:#FEAA36;
+}
+
+#sidebarright ul li ul li{
+padding-left: 10px;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/child.gif) no-repeat;
+padding-bottom: 2px;
+}
+
+#sidebarright a:link {
+color: #931111;
+text-decoration: none;
+font-weight: bold;
+border: none;
+}
+
+#sidebarright a:hover {
+color: #000;
+text-decoration: none;
+border: none;
+}
+
+#sidebarright a:visited:hover {
+color: #000;
+text-decoration: none;
+border: none;
+}
+
+#sidebarright a:visited {
+color: #931111;
+font-weight: bold;
+text-decoration: none;
+border: none;
+}
+
+#sidebarright h2 {
+color: #FFF;
+padding: 40px 8px 2px 0px;
+margin-top:8px;
+}
+
+#leftnav p, #rightnav p { margin: 0; font-size:10px; padding:4px; word-spacing:normal; line-height:normal; }
+#content h2 { margin: 0 0 .5em 0; }
+
+
+                         /***************************************************
+                         *********************** Paragraph **************
+                         *****************************************************/
+
+p
+{
+margin-bottom: 12px;
+margin-top: 12px;
+}
+
+                         /***************************************************
+                         *********************** Blockquote ********************
+                         *****************************************************/
+
+blockquote
+{
+margin: 0px 0px 0px 30px;
+padding: 0px 25px 0px 0px;
+font-style: italic;
+color: #666666;
+border-left: 4px solid #B5C9DF;
+}
+
+
+                         /***************************************************
+                         *********************** Post Metadata ****************
+                         *****************************************************/
+
+.postmetadata
+{
+display:block;
+margin: 0px 35px 10px 20px;
+padding: 0px 8px 8px 35px;
+text-align: left;
+background: #FFF;
+color:#3F3F3F;
+}
+
+#content .postmetadata
+{
+padding-left: 2px;
+
+}
+
+.postmetadata a:link
+{
+border: none;
+color: #006633;
+font-weight: bold;
+text-decoration: none;
+}
+
+.postmetadata a:hover
+{
+border: none;
+color: #990000;
+font-weight: bold;
+text-decoration: none;
+}
+
+.postmetadata a:visited:hover
+{
+border: none;
+color: #990000;
+font-weight: bold;
+text-decoration: none;
+}
+
+.postmetadata a:visited
+{
+border: none;
+color: #006633;
+font-weight: bold;
+text-decoration: none;
+}
+
+.commentleft {
+	text-align:right;
+	}
+
+                         /***************************************************
+                         *********************** Links ********************
+                         *****************************************************/
+
+a:link
+{
+color: #990000;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover
+{
+color: #000000;
+font-weight:bold;
+text-decoration: none;
+}
+
+a:visited
+{
+color: #990000;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:visited:hover
+{
+color: #000000;
+text-decoration: none;
+}
+
+a img 
+{
+border:none;
+background:none;
+padding:5px;
+}
+
+#feed, #feed img a:link, #feed img a:visited
+{
+border: none;
+}
+
+
+                         /***************************************************
+                         *********************** Comments ********************
+                         *****************************************************/
+
+.commentlist
+{
+padding-left: 40px;
+padding-right: 15px;
+background: #fff;
+color: #000;
+}
+
+.commentlist li
+{
+margin: 8px 10px 8px 15px;
+padding-left: 12px;
+list-style: none;
+background: #FCC981;
+margin-bottom: 2px;
+}
+
+li.alt
+{
+background: #fff;
+}
+
+.commentlist cite
+{
+padding: 2px 3px 1px 3px;
+}
+
+.commentlist p
+{
+padding: 5px 5px 2px 3px;
+margin-bottom: 5px;
+}
+
+.commentlist a:link
+{
+border: none;
+text-decoration: underline;
+font-weight: bold;
+color: #8C9EAA;
+}
+
+.commentlist a:visited
+{
+border: none;
+text-decoration: underline;
+font-weight: bold;
+color: #8C9EAA;
+}
+
+.commentlist a:hover
+{
+border: none;
+text-decoration: underline;
+font-weight: bold;
+color: #8C9EAA;
+}
+
+.commentlist a:visited:hover
+{
+border: none;
+text-decoration: underline;
+font-weight: bold;
+color: #8C9EAA;
+}
+
+.commentmetadata a:link, .commentmetadata a:hover, .commentmetadata a:visited
+{
+text-decoration: none;
+color: #8C9EAA;
+}
+
+.commentnumber {
+font: normal 16px Verdana, Arial, Helvetica, sans-serif;
+margin-top: 2px;
+float:right;
+color: #990000;
+font-weight:bold;
+}
+
+#comment
+{
+width:80%;
+}
+
+                         /***************************************************
+                         *********************** Headings**************
+                         *****************************************************/
+
+h1
+{
+font-size: 36px;
+color: #666666;
+}
+
+h2
+{
+display: block;
+font-size: 16px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+h3
+{
+display: block;
+font-size: 14px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+h3.posttitle   
+{
+font-size: 22px;
+font-weight: bold;
+padding-left: 4px;
+padding-top: 0px;
+padding-bottom: 4px;
+margin-top: 6px;
+margin-bottom: 5px;
+
+
+}
+
+h3.posttitle:hover
+{
+border:0px solid #000000;
+}
+
+h3.titleside   
+{
+font-size: 10px;
+font-weight: bold;
+padding-left: 4px;
+}
+
+h3.titleside:hover
+{
+border:0px solid #000000;
+}
+
+.posttitle a:link
+{
+font-size: 22px;
+color: #000;
+font-weight: bold;
+}
+
+.posttitle a:visited
+{
+font-size: 22px;
+color: #000;
+font-weight: bold;
+}
+
+.posttitle a:hover
+{
+font-size: 22px;
+color: #337626;
+font-weight: bold;
+text-decoration: none;
+}
+
+.posttitle a:visited:hover
+{
+text-decoration: none;
+}
+
+h4
+{
+margin-top: 15px;
+font-size: 13px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+h5
+{
+margin-top: 15px;
+font-size: 12px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+                          /*Miscellaneous*/
+/*.date
+{
+font-size: 18px;
+float: right;
+letter-spacing: 0px;
+padding: 16px 10px 3px 5px;
+text-align: center;
+color: #990000;
+}*/
+
+.the_date {
+display:block;
+text-align: center;
+float:left;
+font-family: Arial, Helvetica, sans-serif;
+background: url(../images/dateicon.gif) no-repeat;
+width:50px;
+margin-right:5px;
+}
+
+.date_m {
+display:block;
+font-size: .9em;
+margin:0;
+padding:0;
+margin-top:0px;
+font-weight: bold;
+text-align:center;
+}
+
+.date_d {
+display:block;
+font-size:1.4em;
+margin:0;
+padding:0.3em 0 1.3em 0;
+text-align: center;
+}
+
+.entry
+{
+margin-bottom: 5px;
+border:1px solid #CCC;
+background-image:url(../images/bgPost.jpg);
+background-repeat:repeat-y;
+background-color:#faf2e5;
+padding:5px;
+}
+                         /*Contained Floats Fix*/
+.post
+{
+margin-top:10px;
+display: block;
+overflow:hidden;
+width:98%;
+text-align:left;
+margin-left:0px;
+}
+                     /*Code*/
+code
+{
+display: block;
+margin: 10px 30px 0 30px;
+padding: 2px 10px 5px 10px;
+border-top: 4px solid #798288;
+color: #666666;
+background: #C3DEF1;
+}
+
+/*#searchform {
+margin-left: 5px;
+	}*/
+
+/* navigation
+--------------------------------------------------*/
+#navigation {
+margin:0px; padding:0px; position:relative; width:990px; height:25px; z-index:0; text-align:left; background-color:#FEAA36; border-bottom:1px solid #000000; border-top:1px solid #000000;
+
+}
+
+
+
+
+.credits
+{
+margin-top: -25px;
+padding: 0 4px 5px 4px;
+float: right;
+}
+
+/******************Calendar**************/
+#wp-calendar 
+{
+empty-cells: show;
+margin: 10px auto 0;
+width: 160px;
+}
+
+#wp-calendar #next a 
+{
+padding-right: 10px;
+text-align: right;
+}
+
+#wp-calendar #prev a 
+{
+padding-left: 10px;
+text-align: left;
+}
+
+#wp-calendar td 
+{
+padding: 2px 0;
+text-align: center;
+}
+
+#wp-calendar th 
+{
+/*padding: 3px 0;*/
+text-align: center;
+}
+
+#wp-calendar caption 
+{
+text-align: center;
+width: 100%;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+img 
+{
+padding:4px 10px 10px 4px;	
+border:none;
+}
+
+.alignright {
+text-align: right;
+}
+
+.alignleft {
+text-align: left
+}
+
+/* Get rid of the margin, padding and bullets in the unordered lists */
+#pmenu, #pmenu ul {padding:0; margin:0; list-style-type: none; font-family:Verdana, Arial, Helvetica, sans-serif, Impact; font-size:8px; font-stretch:condensed;}
+
+/* Set up the link size, color and borders */
+#pmenu a, #pmenu a:visited {display:block;width:120px; font-size:11px; color:#000; height:25px; line-height:24px; text-decoration:none; text-indent:5px; border:1px solid #000; border-top:0px solid; border-left:0px solid;}
+
+/* Set up the sub level borders */
+#pmenu li ul li a, #pmenu li ul li a:visited {border-width:0 1px 1px 1px;}
+#pmenu li a.enclose, #pmenu li a.enclose:visited {border-width:1px;}
+
+/* Set up the list items */
+#pmenu li {float:left; background:#FEAA36;}
+
+/* For Non-IE browsers and IE7 */
+#pmenu li:hover {position:relative;}
+/* Make the hovered list color persist */
+#pmenu li:hover > a {background:#dfd7ca; color:#c00;}
+/* Set up the sublevel lists with a position absolute for flyouts and overrun padding. The transparent gif is for IE to work */
+#pmenu li ul {display:none;}
+/* For Non-IE and IE7 make the sublevels visible on list hover. This is all it needs */
+#pmenu li:hover > ul {display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/transparent.gif); width:120px;}
+/* Position the first sub level beneath the top level liinks */
+#pmenu > li:hover > ul {left:-30px; top:16px;}
+
+/* get rid of the table */
+#pmenu table {position:absolute; border-collapse:collapse; top:0; left:0; z-index:100; font-size:1em;}
+
+/* For IE5.5 and IE6 give the hovered links a position relative and a change of background and foreground color. This is needed to trigger IE to show the sub levels */
+* html #pmenu li a:hover {position:relative; background:#dfd7ca; color:#c00;}
+
+/* For accessibility of the top level menu when tabbing */
+#pmenu li a:active, #pmenu li a:focus {background:#dfd7ca; color:#c00;}
+
+/* Set up the pointers for the sub level indication */
+#pmenu li.fly {background:#7484ad url(https://web.archive.org/web/20110723142337im_/http://www.cssplay.co.uk/menus/fly.gif) no-repeat right center;}
+#pmenu li.drop {background:#7484ad url(https://web.archive.org/web/20110723142337im_/http://www.cssplay.co.uk/menus/drop.gif) no-repeat right center;}
+
+
+/* This lot is for IE5.5 and IE6 ONLY and is necessary to make the sublevels appear */
+
+/* change the drop down levels from display:none; to visibility:hidden; */
+* html #pmenu li ul {visibility:hidden; display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/transparent.gif);}
+
+/* keep the third level+ hidden when you hover on first level link */
+#pmenu li a:hover ul ul{
+visibility:hidden;
+}
+/* keep the fourth level+ hidden when you hover on second level link */
+#pmenu li a:hover ul a:hover ul ul{
+visibility:hidden;
+}
+/* keep the fifth level hidden when you hover on third level link */
+#pmenu li a:hover ul a:hover ul a:hover ul ul{
+visibility:hidden;
+}
+/* keep the sixth level hidden when you hover on fourth level link */
+#pmenu li a:hover ul a:hover ul a:hover ul a:hover ul ul {
+visibility:hidden;
+}
+
+/* make the second level visible when hover on first level link and position it */
+#pmenu li a:hover ul {
+visibility:visible; left:-30px; top:14px; left:-31px; top:15px;
+}
+
+/* make the third level visible when you hover over second level link and position it and all further levels */
+#pmenu li a:hover ul a:hover ul{ 
+visibility:visible; top:-11px; left:80px;
+}
+/* make the fourth level visible when you hover over third level link */
+#pmenu li a:hover ul a:hover ul a:hover ul { 
+visibility:visible;
+}
+/* make the fifth level visible when you hover over fourth level link */
+#pmenu li a:hover ul a:hover ul a:hover ul a:hover ul { 
+visibility:visible;
+}
+/* make the sixth level visible when you hover over fifth level link */
+#pmenu li a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul { 
+visibility:visible;
+}
+/* If you can see the pattern in the above IE5.5 and IE6 style then you can add as many sub levels as you like */
+
+/* BORDI ARROTONDATI */
+
+.subcontent-unit-noborder {width:183px; margin:0px; padding:0px;}
+
+.round-border-topleft {width:10px; height:10px; position:absolute; z-index:100; background:url(../images/bg_corner_topleft.gif) no-repeat; margin-top:-1px; margin-left:-1px;}
+.round-border-topright {width:10px; height:10px; position:absolute; z-index:100; background:url(../images/bg_corner_topright.gif) no-repeat; margin-top:-1px; margin-left:174px;}
+.round-noborder-topleft {width:10px; height:10px; position:absolute; z-index:100; background:url(../images/bg_corner_topleft.gif) no-repeat; margin-top:0px; margin-left:0px;}
+.round-noborder-topright {width:10px; height:10px; position:absolute; z-index:100; background:url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/bg_corner_topright.gif) no-repeat; margin-top:0px; margin-left:175px;}
+/*
+     FILE ARCHIVED ON 14:23:37 Jul 23, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:57:23 Nov 20, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 673.744
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.074
+  cdx.remote: 0.059
+  esindex: 0.008
+  LoadShardBlock: 639.983 (3)
+  PetaboxLoader3.datanode: 82.703 (4)
+  CDXLines.iter: 16.133 (3)
+  PetaboxLoader3.resolve: 585.205 (3)
+  load_resource: 57.091
+*/
