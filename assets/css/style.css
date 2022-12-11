@@ -152,12 +152,12 @@ padding-left: 15px;
 
 #content ul li{
 padding-left: 15px;
-background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/content-star.gif) no-repeat;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/content-star.gif) no-repeat;
 }
 
 #content ul ul li{
 padding-left: 15px;
-background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/content-child.gif) no-repeat;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/content-child.gif) no-repeat;
 }
 
 
@@ -286,7 +286,7 @@ padding-top:0px;
 margin-top:0px;
 padding-bottom: 0px;
 margin-bottom: 0px;
-background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/child.gif) no-repeat;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/child.gif) no-repeat;
 }
 
 #sidebarleft ul li li{
@@ -296,7 +296,7 @@ padding-top:0px;
 margin-top:0px;
 padding-bottom: 0px;
 margin-bottom: 0px;
-background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/child.gif) no-repeat;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/child.gif) no-repeat;
 
 }
 
@@ -390,7 +390,7 @@ background: #FFF url(../images/meta.jpg) no-repeat;
 }
 
 .calendario {
-background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/calendario.jpg) no-repeat;
+background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/calendario.jpg) no-repeat;
 }
 
 .cerca {
@@ -398,7 +398,7 @@ background: #FFF url(../images/cerca.jpg) no-repeat;
 }
 
 .rum {
-background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/rum.jpg) no-repeat;
+background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/rum.jpg) no-repeat;
 }
 
 #sidebarright ul li
@@ -406,14 +406,14 @@ background: #FFF url(/web/20110723142337im_/http://www.rumclub.org/wp-content/th
 display: block;
 padding-left: 10px;
 margin-left: 5px;
-background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/star.gif) no-repeat;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/star.gif) no-repeat;
 padding-bottom: 2px;
 background-color:#FEAA36;
 }
 
 #sidebarright ul li ul li{
 padding-left: 10px;
-background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/child.gif) no-repeat;
+background: url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/child.gif) no-repeat;
 padding-bottom: 2px;
 }
 
@@ -936,7 +936,7 @@ text-align: left
 /* Set up the sublevel lists with a position absolute for flyouts and overrun padding. The transparent gif is for IE to work */
 #pmenu li ul {display:none;}
 /* For Non-IE and IE7 make the sublevels visible on list hover. This is all it needs */
-#pmenu li:hover > ul {display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/transparent.gif); width:120px;}
+#pmenu li:hover > ul {display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/transparent.gif); width:120px;}
 /* Position the first sub level beneath the top level liinks */
 #pmenu > li:hover > ul {left:-30px; top:16px;}
 
@@ -957,7 +957,7 @@ text-align: left
 /* This lot is for IE5.5 and IE6 ONLY and is necessary to make the sublevels appear */
 
 /* change the drop down levels from display:none; to visibility:hidden; */
-* html #pmenu li ul {visibility:hidden; display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/transparent.gif);}
+* html #pmenu li ul {visibility:hidden; display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/transparent.gif);}
 
 /* keep the third level+ hidden when you hover on first level link */
 #pmenu li a:hover ul ul{
@@ -1006,7 +1006,7 @@ visibility:visible;
 .round-border-topleft {width:10px; height:10px; position:absolute; z-index:100; background:url(../images/bg_corner_topleft.gif) no-repeat; margin-top:-1px; margin-left:-1px;}
 .round-border-topright {width:10px; height:10px; position:absolute; z-index:100; background:url(../images/bg_corner_topright.gif) no-repeat; margin-top:-1px; margin-left:174px;}
 .round-noborder-topleft {width:10px; height:10px; position:absolute; z-index:100; background:url(../images/bg_corner_topleft.gif) no-repeat; margin-top:0px; margin-left:0px;}
-.round-noborder-topright {width:10px; height:10px; position:absolute; z-index:100; background:url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/rumclub/img/bg_corner_topright.gif) no-repeat; margin-top:0px; margin-left:175px;}
+.round-noborder-topright {width:10px; height:10px; position:absolute; z-index:100; background:url(/web/20110723142337im_/http://www.rumclub.org/wp-content/themes/img/bg_corner_topright.gif) no-repeat; margin-top:0px; margin-left:175px;}
 /*
      FILE ARCHIVED ON 14:23:37 Jul 23, 2011 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 11:57:23 Nov 20, 2022.
