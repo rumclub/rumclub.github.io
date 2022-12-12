@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div id="content">	
+  <h4 class="pagetitle">Archive for Maggio, 2012</h4>
+  {% for post in site.posts %}
+    {% if post.year == 2012 and post.month == 5 %}
+      {{ post.content }}
+    {% endif %}
+  {% endfor %}
+</div>
