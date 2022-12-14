@@ -5,8 +5,38 @@ month: 12
 ---
 
 <div class="post" id="post-2102">
+  {% if page.type == homepage %}
+  <div class="the_date">
+    <div class="date_m">Dicembre</div>
+    <div class="date_d">1st</div>
+    </div>
+    <h3 class="posttitle">Rum Club, idee per Natale</h3>
+    <p class="postmetadata">
+      Posted in
+      <a
+        href="{{site.url}}/category/abbinamenti"
+        title="Visualizza tutti gli articoli in Abbinamenti"
+        rel="category tag"
+        >Abbinamenti</a
+      >,
+      <a
+        href="{{site.url}}/category/forum"
+        title="Visualizza tutti gli articoli in Forum"
+        rel="category tag"
+        >Forum</a
+      >,
+      <a
+        href="{{site.url}}/category/vacanze"
+        title="Visualizza tutti gli articoli in vacanze"
+        rel="category tag"
+        >vacanze</a
+      >
+      by: sabrina
+    </p>
+  {% elsif page.type == archive %}
   <div class="date">01 Dic</div>
   <h3 class="posttitle">Rum Club, idee per Natale</h3>
+  {% endif %}
   <div class="entry">
     <p>
       Si avvicina il Natale e abbiamo deciso di “regalarvi” alcune sfiziose
@@ -69,19 +99,19 @@ month: 12
   <p class="postmetadata">
     Posted in
     <a
-      href="{{site.url}}/category/abbinamenti/"
+      href="{{site.url}}/category/abbinamenti"
       title="Visualizza tutti gli articoli in Abbinamenti"
       rel="category tag"
       >Abbinamenti</a
     >,
     <a
-      href="{{site.url}}/category/forum/"
+      href="{{site.url}}/category/forum"
       title="Visualizza tutti gli articoli in Forum"
       rel="category tag"
       >Forum</a
     >,
     <a
-      href="{{site.url}}/category/vacanze/"
+      href="{{site.url}}/category/vacanze"
       title="Visualizza tutti gli articoli in vacanze"
       rel="category tag"
       >vacanze</a

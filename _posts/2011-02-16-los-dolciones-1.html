@@ -5,8 +5,80 @@ month: 2
 ---
 
 <div class="post" id="post-2152">
+  {% if page.type == homepage %}
+  <div class="the_date">
+    <div class="date_m">Maggio</div>
+    <div class="date_d">11th</div>
+    </div>
+    <h3 class="posttitle">DOSSIER: “Los Dolciones” - 1° puntata</h3>
+    <p class="postmetadata">
+      Posted in
+      <a
+        href="{{site.url}}/category/dictador"
+        title="Visualizza tutti gli articoli in Dictador"
+        rel="category tag"
+        >Dictador</a
+      >,
+      <a
+        href="{{site.url}}/category/diplomatico"
+        title="Visualizza tutti gli articoli in Diplomatico"
+        rel="category tag"
+        >Diplomatico</a
+      >,
+      <a
+        href="{{site.url}}/category/flor-de-cana"
+        title="Visualizza tutti gli articoli in Flor de Cana"
+        rel="category tag"
+        >Flor de Cana</a
+      >,
+      <a
+        href="{{site.url}}/category/havana"
+        title="Visualizza tutti gli articoli in Havana"
+        rel="category tag"
+        >Havana</a
+      >,
+      <a
+        href="{{site.url}}/category/malteco"
+        title="Visualizza tutti gli articoli in Malteco"
+        rel="category tag"
+        >Malteco</a
+      >,
+      <a
+        href="{{site.url}}/category/pampero"
+        title="Visualizza tutti gli articoli in Pampero"
+        rel="category tag"
+        >Pampero</a
+      >,
+      <a
+        href="{{site.url}}/category/solera"
+        title="Visualizza tutti gli articoli in Solera"
+        rel="category tag"
+        >Solera</a
+      >,
+      <a
+        href="{{site.url}}/category/zacapa"
+        title="Visualizza tutti gli articoli in Zacapa"
+        rel="category tag"
+        >Zacapa</a
+      >,
+      <a
+        href="{{site.url}}/category/cultura-del-rum"
+        title="Visualizza tutti gli articoli in cultura del Rum"
+        rel="category tag"
+        >cultura del Rum</a
+      >,
+      <a
+        href="{{site.url}}/category/mercato"
+        title="Visualizza tutti gli articoli in mercato"
+        rel="category tag"
+        >mercato</a
+      >
+      by: daniele
+    </p>
+  {% elsif page.type == archive %}
   <div class="date">16 Feb</div>
   <h3 class="posttitle">DOSSIER: “Los Dolciones” - 1° puntata</h3>
+  {% endif %}
   <div class="entry">
     <p>
       <img
@@ -53,7 +125,7 @@ month: 2
       piangere, <b>“los Dolciones”</b>.
       <a
         title="Sett 2010"
-        href="https://web.archive.org/web/20130303223652/http://www.rumclub.org/2010/09/"
+        href="{{site.url}}/2010/09"
         >Nell’articolo sopracitato </a
       >sull’argomento si cercava un neologismo per definirli, ed eccolo: los
       Dolciones.
@@ -132,61 +204,61 @@ month: 2
   <p class="postmetadata">
     Posted in
     <a
-      href="{{site.url}}/category/dictador/"
+      href="{{site.url}}/category/dictador"
       title="Visualizza tutti gli articoli in Dictador"
       rel="category tag"
       >Dictador</a
     >,
     <a
-      href="{{site.url}}/category/diplomatico/"
+      href="{{site.url}}/category/diplomatico"
       title="Visualizza tutti gli articoli in Diplomatico"
       rel="category tag"
       >Diplomatico</a
     >,
     <a
-      href="{{site.url}}/category/flor-de-cana/"
+      href="{{site.url}}/category/flor-de-cana"
       title="Visualizza tutti gli articoli in Flor de Cana"
       rel="category tag"
       >Flor de Cana</a
     >,
     <a
-      href="{{site.url}}/category/havana/"
+      href="{{site.url}}/category/havana"
       title="Visualizza tutti gli articoli in Havana"
       rel="category tag"
       >Havana</a
     >,
     <a
-      href="{{site.url}}/category/malteco/"
+      href="{{site.url}}/category/malteco"
       title="Visualizza tutti gli articoli in Malteco"
       rel="category tag"
       >Malteco</a
     >,
     <a
-      href="{{site.url}}/category/pampero/"
+      href="{{site.url}}/category/pampero"
       title="Visualizza tutti gli articoli in Pampero"
       rel="category tag"
       >Pampero</a
     >,
     <a
-      href="{{site.url}}/category/solera/"
+      href="{{site.url}}/category/solera"
       title="Visualizza tutti gli articoli in Solera"
       rel="category tag"
       >Solera</a
     >,
     <a
-      href="{{site.url}}/category/zacapa/"
+      href="{{site.url}}/category/zacapa"
       title="Visualizza tutti gli articoli in Zacapa"
       rel="category tag"
       >Zacapa</a
     >,
     <a
-      href="{{site.url}}/category/cultura-del-rum/"
+      href="{{site.url}}/category/cultura-del-rum"
       title="Visualizza tutti gli articoli in cultura del Rum"
       rel="category tag"
       >cultura del Rum</a
     >,
     <a
-      href="{{site.url}}/category/mercato/"
+      href="{{site.url}}/category/mercato"
       title="Visualizza tutti gli articoli in mercato"
       rel="category tag"
       >mercato</a

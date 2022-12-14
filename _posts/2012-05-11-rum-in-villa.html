@@ -5,10 +5,19 @@ month: 5
 ---
 
 <div class="post" id="post-2208">
+  {% if page.type == homepage %}
+  <div class="the_date">
+    <div class="date_m">Maggio</div>
+    <div class="date_d">11th</div>
+    </div>
+    <h3 class="posttitle">Rum in Villa !</h3>
+    <p class="postmetadata">Posted in <a href="{{site.url}}/category/cigar-club" title="Visualizza tutti gli articoli in Cigar Club" rel="category tag">Cigar Club</a>,  <a href="{{site.url}}/category/cocktails" title="Visualizza tutti gli articoli in Cocktails" rel="category tag">Cocktails</a>,  <a href="{{site.url}}/category/corner-rum" title="Visualizza tutti gli articoli in Corner Rum" rel="category tag">Corner Rum</a> by: daniele </p> 
+  {% elsif page.type == archive %}
     <div class="date"> 11	Mag </div>
     <h3 class="posttitle">Rum in Villa !</h3>
+    {% endif %}
     <div class="entry">
       <p><img class="alignnone size-full wp-image-2209" title="rc_locandina_a4c_snap4villa" src="{{site.url}}/assets/images/rc_locandina_a4c_snap4villa.jpg"" alt="" width="500" height="707"></a></p>
     </div>
-    <p class="postmetadata">Posted in <a href="{{site.url}}/category/cigar-club/" title="Visualizza tutti gli articoli in Cigar Club" rel="category tag">Cigar Club</a>,  <a href="{{site.url}}/category/cocktails/" title="Visualizza tutti gli articoli in Cocktails" rel="category tag">Cocktails</a>,  <a href="{{site.url}}/category/corner-rum/" title="Visualizza tutti gli articoli in Corner Rum" rel="category tag">Corner Rum</a> by: daniele </p> 
+    <p class="postmetadata">Posted in <a href="{{site.url}}/category/cigar-club" title="Visualizza tutti gli articoli in Cigar Club" rel="category tag">Cigar Club</a>,  <a href="{{site.url}}/category/cocktails" title="Visualizza tutti gli articoli in Cocktails" rel="category tag">Cocktails</a>,  <a href="{{site.url}}/category/corner-rum" title="Visualizza tutti gli articoli in Corner Rum" rel="category tag">Corner Rum</a> by: daniele </p> 
   </div>
